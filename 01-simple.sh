@@ -5,6 +5,6 @@
 echo " ******* WELCOME TO SHELL SCRIPTING ******* "
 a=5
 b=10
-c=`expr $a + $b`
-echo "               Addition value: $c            "
+c=`expr $b - $a`
+echo "               Subtractinon value: $c            "
 
