@@ -1,4 +1,4 @@
 coffee:
-  @echo "Make Coffee"
+    echo "Make Coffee"
 tea:
-  @echo "Make Tea"
+    echo "Make Tea"
