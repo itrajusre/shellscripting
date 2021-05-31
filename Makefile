@@ -1,6 +1,6 @@
 say_hello:
-	echo "Hello World!"
+	@echo "Hello World!"
 coffee:
-	echo "Make cofee"
+	@echo "Make cofee"
 tea:
-	echo "Make Tea"
+	@echo "Make Tea"
