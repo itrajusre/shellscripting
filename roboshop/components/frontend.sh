@@ -1,5 +1,6 @@
 #!/bin/bash
 
+COMPONENT=frontend
 source components/common.sh
 rm -f /tmp/roboshop.log
 

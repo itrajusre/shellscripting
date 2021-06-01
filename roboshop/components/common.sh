@@ -1,6 +1,7 @@
 HEAD()
 {
-  echo -n -e "\e[1m $1 \e[0m \t\t ... "
+  #echo -n -e "\e[1m $1 \e[0m \t\t ... "
+  echo -e "[\e[1;34mINFO\e[0m] [\e[1;35m${COMPONENT}\e[0m] [\e[1;36m$(date '+%F %T')\e[0m] $1"
 }
 
 STAT()
