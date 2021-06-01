@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source components/common.sh
+rm -f /tmp/roboshop.log
+
 HEAD "Setup MongoDB Yum repo file"
 echo '[mongodb-org-4.2]
 name=MongoDB Repository
